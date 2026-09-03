@@ -1,604 +1,481 @@
-# Mapa de LEDs
+# Mapa de LEDs — Hercules DJ Control AIR
 
-Documentação dos LEDs e das mensagens MIDI utilizadas para controlar os indicadores luminosos do **Hercules DJ Control AIR**.
+## Objetivo
 
-> **Status:** Em documentação
-> **Fonte primária:** Hercules / DJUCED Reference Manual
-> **Última revisão:** 2026-09-03
+Documentar os comandos MIDI utilizados para controlar os LEDs da **Hercules DJ Control AIR**, separando claramente:
 
----
+* informações oficiais da Hercules;
+* comandos encontrados na implementação do Mixxx;
+* resultados de testes realizados diretamente no hardware;
+* inferências;
+* comportamentos ainda não confirmados.
 
-## 1. Objetivo
-
-Este documento tem como objetivo identificar:
-
-* todos os LEDs documentados no Hercules DJ Control AIR;
-* o endereço MIDI associado a cada LED;
-* a mensagem utilizada para ligá-lo;
-* a mensagem utilizada para desligá-lo;
-* o comportamento observado durante os testes;
-* diferenças entre a documentação oficial e a implementação em softwares;
-* possíveis comportamentos não documentados.
-
-A documentação será construída em três etapas:
-
-```text
-DOCUMENTAÇÃO OFICIAL
-        │
-        ▼
-MAPA MIDI TEÓRICO
-        │
-        ▼
-TESTE NO HARDWARE
-        │
-        ▼
-MAPA MIDI VALIDADO
-```
+Este documento deve ser atualizado conforme novos testes forem realizados.
 
 ---
 
-# 2. Convenções
+## Convenções
 
-## 2.1 Mensagem MIDI
+### Canal MIDI
 
-As mensagens são representadas em hexadecimal:
-
-```text
-STATUS DATA1 DATA2
-```
-
-Exemplo:
-
-```text
-90 12 7F
-```
-
----
-
-## 2.2 Canal MIDI
-
-A documentação oficial utiliza:
+A documentação oficial utiliza a notação:
 
 ```text
 9x
 Bx
 ```
 
-O `x` representa o canal MIDI.
+onde `x` representa o canal MIDI.
 
-Para o canal MIDI 1:
+Na unidade física testada neste projeto, o canal utilizado é:
 
 ```text
-9x → 90
-Bx → B0
+MIDI Channel 2
 ```
 
-Portanto, quando um teste for realizado no canal 1, a mensagem será registrada utilizando `90` ou `B0`.
+No protocolo MIDI isso corresponde a:
+
+```text
+Note On       → 91
+Control Change → B1
+```
+
+No Mido, o canal 2 é representado pelo índice:
+
+```python
+channel=1
+```
 
 ---
 
-## 2.3 Estado do LED
+## Valores dos LEDs
 
-A documentação oficial especifica:
+Para mensagens `Note On`:
 
 ```text
-00 = OFF
 7F = ON
+00 = OFF
 ```
 
-Assim:
+Exemplo:
 
 ```text
-90 NN 00
+91 12 7F
 ```
 
-desliga o LED associado ao endereço `NN`.
+Liga o LED associado ao endereço `12`.
+
+```text
+91 12 00
+```
+
+Desliga o mesmo LED.
+
+---
+
+## Status das informações
+
+| Status        | Significado                                       |
+| ------------- | ------------------------------------------------- |
+| OFICIAL       | Informação encontrada na documentação da Hercules |
+| IMPLEMENTAÇÃO | Informação encontrada em software, como Mixxx     |
+| EXPERIMENTAL  | Confirmado diretamente no hardware                |
+| INFERÊNCIA    | Conclusão baseada em evidências                   |
+| DESCONHECIDO  | Ainda não confirmado                              |
+
+---
+
+# LEDs do Deck A
+
+| Função       | Endereço | ON         | OFF        | Fonte            | Status         |
+| ------------ | -------: | ---------- | ---------- | ---------------- | -------------- |
+| Effect Pad 1 |     `01` | `91 01 7F` | `91 01 00` | Hercules / Mixxx | OFICIAL        |
+| Effect Pad 2 |     `02` | `91 02 7F` | `91 02 00` | Hercules / Mixxx | OFICIAL        |
+| Effect Pad 3 |     `03` | `91 03 7F` | `91 03 00` | Hercules / Mixxx | OFICIAL        |
+| Effect Pad 4 |     `04` | `91 04 7F` | `91 04 00` | Hercules / Mixxx | OFICIAL        |
+| Sample Pad 1 |     `05` | `91 05 7F` | `91 05 00` | Hercules / Mixxx | OFICIAL        |
+| Sample Pad 2 |     `06` | `91 06 7F` | `91 06 00` | Hercules / Mixxx | OFICIAL        |
+| Sample Pad 3 |     `07` | `91 07 7F` | `91 07 00` | Hercules / Mixxx | OFICIAL        |
+| Sample Pad 4 |     `08` | `91 08 7F` | `91 08 00` | Hercules / Mixxx | OFICIAL        |
+| Loop Pad 1   |     `09` | `91 09 7F` | `91 09 00` | Hercules / Mixxx | OFICIAL        |
+| Loop Pad 2   |     `0A` | `91 0A 7F` | `91 0A 00` | Hercules / Mixxx | OFICIAL        |
+| Loop Pad 3   |     `0B` | `91 0B 7F` | `91 0B 00` | Hercules / Mixxx | OFICIAL        |
+| Loop Pad 4   |     `0C` | `91 0C 7F` | `91 0C 00` | Hercules / Mixxx | OFICIAL        |
+| Sync         |     `13` | `91 13 7F` | `91 13 00` | Hercules / Mixxx | OFICIAL        |
+| Cue          |     `11` | `91 11 7F` | `91 11 00` | Hercules / Mixxx | OFICIAL        |
+| Play/Pause   |     `12` | `91 12 7F` | `91 12 00` | Hercules / Mixxx | **CONFIRMADO** |
+
+### Evidência experimental
+
+O LED Play/Pause do Deck A foi testado diretamente na unidade física.
+
+Comando:
+
+```text
+91 12 7F
+```
+
+Resultado:
+
+```text
+LED Play/Pause Deck A → ACENDEU
+```
+
+Comando:
+
+```text
+91 12 00
+```
+
+Resultado:
+
+```text
+LED Play/Pause Deck A → APAGOU
+```
+
+**Status: EXPERIMENTAL CONFIRMADO**
+
+---
+
+# LEDs do Deck B
+
+| Função       | Endereço | ON         | OFF        | Fonte            | Status  |
+| ------------ | -------: | ---------- | ---------- | ---------------- | ------- |
+| Effect Pad 1 |     `17` | `91 17 7F` | `91 17 00` | Hercules / Mixxx | OFICIAL |
+| Effect Pad 2 |     `18` | `91 18 7F` | `91 18 00` | Hercules / Mixxx | OFICIAL |
+| Effect Pad 3 |     `19` | `91 19 7F` | `91 19 00` | Hercules / Mixxx | OFICIAL |
+| Effect Pad 4 |     `1A` | `91 1A 7F` | `91 1A 00` | Hercules / Mixxx | OFICIAL |
+| Sample Pad 1 |     `1B` | `91 1B 7F` | `91 1B 00` | Hercules / Mixxx | OFICIAL |
+| Sample Pad 2 |     `1C` | `91 1C 7F` | `91 1C 00` | Hercules / Mixxx | OFICIAL |
+| Sample Pad 3 |     `1D` | `91 1D 7F` | `91 1D 00` | Hercules / Mixxx | OFICIAL |
+| Sample Pad 4 |     `1E` | `91 1E 7F` | `91 1E 00` | Hercules / Mixxx | OFICIAL |
+| Loop Pad 1   |     `1F` | `91 1F 7F` | `91 1F 00` | Hercules / Mixxx | OFICIAL |
+| Loop Pad 2   |     `20` | `91 20 7F` | `91 20 00` | Hercules / Mixxx | OFICIAL |
+| Loop Pad 3   |     `21` | `91 21 7F` | `91 21 00` | Hercules / Mixxx | OFICIAL |
+| Loop Pad 4   |     `22` | `91 22 7F` | `91 22 00` | Hercules / Mixxx | OFICIAL |
+| Sync         |     `29` | `91 29 7F` | `91 29 00` | Hercules / Mixxx | OFICIAL |
+| Cue          |     `27` | `91 27 7F` | `91 27 00` | Hercules / Mixxx | OFICIAL |
+| Play/Pause   |     `28` | `91 28 7F` | `91 28 00` | Hercules / Mixxx | OFICIAL |
+
+---
+
+# LEDs do Mixer / Navegação
+
+| Função   | Endereço | ON         | OFF        | Fonte    | Status  |
+| -------- | -------: | ---------- | ---------- | -------- | ------- |
+| Files    |     `35` | `91 35 7F` | `91 35 00` | Hercules | OFICIAL |
+| Folders  |     `36` | `91 36 7F` | `91 36 00` | Hercules | OFICIAL |
+| Scratch  |     `2D` | `91 2D 7F` | `91 2D 00` | Hercules | OFICIAL |
+| Magic    |     `2E` | `91 2E 7F` | `91 2E 00` | Hercules | OFICIAL |
+| Record   |     `30` | `91 30 7F` | `91 30 00` | Hercules | OFICIAL |
+| Listen A |     `14` | `91 14 7F` | `91 14 00` | Hercules | OFICIAL |
+| Listen B |     `2A` | `91 2A 7F` | `91 2A 00` | Hercules | OFICIAL |
+
+---
+
+# LEDs Beat
+
+## Deck A
+
+| Beat LED | Endereço | ON         | OFF        | Status  |
+| -------- | -------: | ---------- | ---------- | ------- |
+| Beat 1   |     `44` | `91 44 7F` | `91 44 00` | OFICIAL |
+| Beat 2   |     `45` | `91 45 7F` | `91 45 00` | OFICIAL |
+| Beat 3   |     `46` | `91 46 7F` | `91 46 00` | OFICIAL |
+| Beat 4   |     `47` | `91 47 7F` | `91 47 00` | OFICIAL |
+
+## Deck B
+
+| Beat LED | Endereço | ON         | OFF        | Status  |
+| -------- | -------: | ---------- | ---------- | ------- |
+| Beat 1   |     `4C` | `91 4C 7F` | `91 4C 00` | OFICIAL |
+| Beat 2   |     `4D` | `91 4D 7F` | `91 4D 00` | OFICIAL |
+| Beat 3   |     `4E` | `91 4E 7F` | `91 4E 00` | OFICIAL |
+| Beat 4   |     `4F` | `91 4F 7F` | `91 4F 00` | OFICIAL |
+
+---
+
+# LEDs do painel frontal
+
+| Função              | Endereço | ON         | OFF        | Fonte    | Status  |
+| ------------------- | -------: | ---------- | ---------- | -------- | ------- |
+| Mix Headphones      |     `39` | `91 39 7F` | `91 39 00` | Hercules | OFICIAL |
+| Cue/PFL Headphones  |     `3A` | `91 3A 7F` | `91 3A 00` | Hercules | OFICIAL |
+| Headphones Volume - |     `3B` | `91 3B 7F` | `91 3B 00` | Hercules | OFICIAL |
+| Headphones Volume + |     `3C` | `91 3C 7F` | `91 3C 00` | Hercules | OFICIAL |
+
+---
+
+# Comando global
+
+A documentação da Hercules também descreve um comando global utilizando Control Change.
+
+Estrutura:
+
+```text
+Bx 7F valor
+```
+
+Para a unidade testada:
+
+```text
+B1 7F 00
+```
+
+Interpretação:
+
+```text
+Todos os LEDs OFF
+```
 
 E:
 
 ```text
-90 NN 7F
+B1 7F 7F
 ```
 
-liga o LED.
-
----
-
-# 3. Classificação
-
-Cada LED terá dois tipos de informação:
-
-### Documentação
-
-Indica aquilo que está explicitamente especificado pela Hercules.
-
-### Teste
-
-Indica aquilo que foi observado diretamente no hardware.
-
-Usaremos os seguintes estados:
-
-| Estado           | Significado                             |
-| ---------------- | --------------------------------------- |
-| ⬜ Não testado    | Ainda não realizamos o teste            |
-| 🟢 Confirmado    | Hardware respondeu conforme esperado    |
-| 🟡 Divergente    | Hardware respondeu de maneira diferente |
-| 🔴 Não respondeu | Nenhuma resposta observada              |
-| 🔵 Parcial       | Funcionamento parcialmente confirmado   |
-
----
-
-# 4. Deck A
-
-## 4.1 Pads
-
-Os pads do Deck A possuem LEDs associados às funções Effect, Sample e Loop.
-
-### Effect
-
-| LED            | Endereço | OFF        | ON         | Teste |
-| -------------- | -------: | ---------- | ---------- | ----- |
-| Pad 1 Effect A |     `01` | `90 01 00` | `90 01 7F` | ⬜     |
-| Pad 2 Effect A |     `02` | `90 02 00` | `90 02 7F` | ⬜     |
-| Pad 3 Effect A |     `03` | `90 03 00` | `90 03 7F` | ⬜     |
-| Pad 4 Effect A |     `04` | `90 04 00` | `90 04 7F` | ⬜     |
-
-### Sample
-
-| LED            | Endereço | OFF        | ON         | Teste |
-| -------------- | -------: | ---------- | ---------- | ----- |
-| Pad 1 Sample A |     `05` | `90 05 00` | `90 05 7F` | ⬜     |
-| Pad 2 Sample A |     `06` | `90 06 00` | `90 06 7F` | ⬜     |
-| Pad 3 Sample A |     `07` | `90 07 00` | `90 07 7F` | ⬜     |
-| Pad 4 Sample A |     `08` | `90 08 00` | `90 08 7F` | ⬜     |
-
-### Loop
-
-| LED          | Endereço | OFF        | ON         | Teste |
-| ------------ | -------: | ---------- | ---------- | ----- |
-| Pad 1 Loop A |     `09` | `90 09 00` | `90 09 7F` | ⬜     |
-| Pad 2 Loop A |     `0A` | `90 0A 00` | `90 0A 7F` | ⬜     |
-| Pad 3 Loop A |     `0B` | `90 0B 00` | `90 0B 7F` | ⬜     |
-| Pad 4 Loop A |     `0C` | `90 0C 00` | `90 0C 7F` | ⬜     |
-
----
-
-## 4.2 Reprodução
-
-| LED    | Endereço | OFF        | ON         | Teste |
-| ------ | -------: | ---------- | ---------- | ----- |
-| Cue A  |     `11` | `90 11 00` | `90 11 7F` | ⬜     |
-| Play A |     `12` | `90 12 00` | `90 12 7F` | ⬜     |
-
----
-
-## 4.3 Pitch
-
-| LED    | Endereço | OFF        | ON         | Teste |
-| ------ | -------: | ---------- | ---------- | ----- |
-| Sync A |     `13` | `90 13 00` | `90 13 7F` | ⬜     |
-
----
-
-## 4.4 Monitoramento
-
-| LED           | Endereço | OFF        | ON         | Teste |
-| ------------- | -------: | ---------- | ---------- | ----- |
-| Listen Deck A |     `14` | `90 14 00` | `90 14 7F` | ⬜     |
-
----
-
-# 5. Deck B
-
-## 5.1 Pads
-
-### Effect
-
-| LED            | Endereço | OFF        | ON         | Teste |
-| -------------- | -------: | ---------- | ---------- | ----- |
-| Pad 1 Effect B |     `17` | `90 17 00` | `90 17 7F` | ⬜     |
-| Pad 2 Effect B |     `18` | `90 18 00` | `90 18 7F` | ⬜     |
-| Pad 3 Effect B |     `19` | `90 19 00` | `90 19 7F` | ⬜     |
-| Pad 4 Effect B |     `1A` | `90 1A 00` | `90 1A 7F` | ⬜     |
-
-### Sample
-
-| LED            | Endereço | OFF        | ON         | Teste |
-| -------------- | -------: | ---------- | ---------- | ----- |
-| Pad 1 Sample B |     `1B` | `90 1B 00` | `90 1B 7F` | ⬜     |
-| Pad 2 Sample B |     `1C` | `90 1C 00` | `90 1C 7F` | ⬜     |
-| Pad 3 Sample B |     `1D` | `90 1D 00` | `90 1D 7F` | ⬜     |
-| Pad 4 Sample B |     `1E` | `90 1E 00` | `90 1E 7F` | ⬜     |
-
-### Loop
-
-| LED          | Endereço | OFF        | ON         | Teste |
-| ------------ | -------: | ---------- | ---------- | ----- |
-| Pad 1 Loop B |     `1F` | `90 1F 00` | `90 1F 7F` | ⬜     |
-| Pad 2 Loop B |     `20` | `90 20 00` | `90 20 7F` | ⬜     |
-| Pad 3 Loop B |     `21` | `90 21 00` | `90 21 7F` | ⬜     |
-| Pad 4 Loop B |     `22` | `90 22 00` | `90 22 7F` | ⬜     |
-
----
-
-## 5.2 Reprodução
-
-| LED    | Endereço | OFF        | ON         | Teste |
-| ------ | -------: | ---------- | ---------- | ----- |
-| Cue B  |     `27` | `90 27 00` | `90 27 7F` | ⬜     |
-| Play B |     `28` | `90 28 00` | `90 28 7F` | ⬜     |
-
----
-
-## 5.3 Pitch
-
-| LED    | Endereço | OFF        | ON         | Teste |
-| ------ | -------: | ---------- | ---------- | ----- |
-| Sync B |     `29` | `90 29 00` | `90 29 7F` | ⬜     |
-
----
-
-## 5.4 Monitoramento
-
-| LED           | Endereço | OFF        | ON         | Teste |
-| ------------- | -------: | ---------- | ---------- | ----- |
-| Listen Deck B |     `2A` | `90 2A 00` | `90 2A 7F` | ⬜     |
-
----
-
-# 6. LEDs centrais
-
-A Hercules documenta três LEDs associados aos controles centrais.
-
-| LED     | Endereço | OFF        | ON         | Teste |
-| ------- | -------: | ---------- | ---------- | ----- |
-| Scratch |     `2D` | `90 2D 00` | `90 2D 7F` | ⬜     |
-| Magic   |     `2E` | `90 2E 00` | `90 2E 7F` | ⬜     |
-| Record  |     `30` | `90 30 00` | `90 30 7F` | ⬜     |
-
----
-
-# 7. LEDs do navegador
-
-O controlador possui LEDs associados aos controles do navegador.
-
-| LED     | Endereço | OFF        | ON         | Teste |
-| ------- | -------: | ---------- | ---------- | ----- |
-| Files   |     `35` | `90 35 00` | `90 35 7F` | ⬜     |
-| Folders |     `36` | `90 36 00` | `90 36 7F` | ⬜     |
-
----
-
-# 8. VU-meter de batidas
-
-O DJ Control AIR possui indicadores luminosos utilizados como **Beat VU-Meter**.
-
-A documentação identifica quatro LEDs para cada deck.
-
-## 8.1 Deck A
-
-| LED      | Endereço | OFF        | ON         | Teste |
-| -------- | -------: | ---------- | ---------- | ----- |
-| Beat 1 A |     `44` | `90 44 00` | `90 44 7F` | ⬜     |
-| Beat 2 A |     `45` | `90 45 00` | `90 45 7F` | ⬜     |
-| Beat 3 A |     `46` | `90 46 00` | `90 46 7F` | ⬜     |
-| Beat 4 A |     `47` | `90 47 00` | `90 47 7F` | ⬜     |
-
-## 8.2 Deck B
-
-| LED      | Endereço | OFF        | ON         | Teste |
-| -------- | -------: | ---------- | ---------- | ----- |
-| Beat 1 B |     `4C` | `90 4C 00` | `90 4C 7F` | ⬜     |
-| Beat 2 B |     `4D` | `90 4D 00` | `90 4D 7F` | ⬜     |
-| Beat 3 B |     `4E` | `90 4E 00` | `90 4E 7F` | ⬜     |
-| Beat 4 B |     `4F` | `90 4F 00` | `90 4F 7F` | ⬜     |
-
----
-
-# 9. Painel frontal
-
-Os controles do painel frontal possuem LEDs controláveis por MIDI.
-
-| LED                   | Endereço | OFF        | ON         | Teste |
-| --------------------- | -------: | ---------- | ---------- | ----- |
-| Mix in Headphones     |     `39` | `90 39 00` | `90 39 7F` | ⬜     |
-| Cue/PFL in Headphones |     `3A` | `90 3A 00` | `90 3A 7F` | ⬜     |
-| Headphones Volume -   |     `3B` | `90 3B 00` | `90 3B 7F` | ⬜     |
-| Headphones Volume +   |     `3C` | `90 3C 00` | `90 3C 7F` | ⬜     |
-
----
-
-# 10. Resumo dos LEDs
-
-| Grupo                 | Quantidade |
-| --------------------- | ---------: |
-| Pads Deck A           |         12 |
-| Reprodução Deck A     |          2 |
-| Sync Deck A           |          1 |
-| Listen Deck A         |          1 |
-| Pads Deck B           |         12 |
-| Reprodução Deck B     |          2 |
-| Sync Deck B           |          1 |
-| Listen Deck B         |          1 |
-| Controles centrais    |          3 |
-| Navegador             |          2 |
-| Beat VU-meter Deck A  |          4 |
-| Beat VU-meter Deck B  |          4 |
-| Painel frontal        |          4 |
-| **Total documentado** |     **49** |
-
-> O total acima representa os **endereços/indicadores documentados pela Hercules**, não necessariamente 49 LEDs físicos independentes. Alguns elementos físicos podem possuir múltiplas funções ou modos de iluminação.
-
----
-
-# 11. Comando para atualizar todos os LEDs
-
-A Hercules também documenta uma mensagem especial para controlar todos os LEDs simultaneamente.
-
-Formato:
+Interpretação:
 
 ```text
-Bx 7F Value
+Todos os LEDs ON
 ```
 
-Valores:
+## Estado experimental
 
-| Valor | Resultado         |
-| ----: | ----------------- |
-|  `00` | Todos os LEDs OFF |
-|  `7F` | Todos os LEDs ON  |
+O comando foi inicialmente testado utilizando o canal MIDI incorreto (`B0`) e não produziu alteração observável.
 
-No canal MIDI 1:
-
-### Desligar todos
+Após a descoberta de que a unidade utiliza o MIDI Channel 2, o teste correto passou a ser:
 
 ```text
-B0 7F 00
+B1 7F 00
+B1 7F 7F
 ```
 
-### Ligar todos
+**Ainda não confirmado fisicamente.**
+
+Status:
 
 ```text
-B0 7F 7F
-```
-
-Este comando deverá ser um dos primeiros testes realizados no hardware.
-
----
-
-# 12. Teste de LED individual
-
-Para testar um LED individual no canal MIDI 1:
-
-### 1. Desligar
-
-Enviar:
-
-```text
-90 NN 00
-```
-
-### 2. Ligar
-
-Enviar:
-
-```text
-90 NN 7F
-```
-
-Onde:
-
-```text
-NN = endereço do LED
-```
-
-### Exemplo: Play Deck A
-
-Desligar:
-
-```text
-90 12 00
-```
-
-Ligar:
-
-```text
-90 12 7F
+EXPERIMENTAL / PENDENTE
 ```
 
 ---
 
-# 13. Teste de todos os LEDs
+# Tabela de validação experimental
 
-O teste global deve seguir esta sequência:
+A tabela abaixo registra somente testes realizados diretamente no hardware.
+
+| Endereço | Função            | Comando ON | Resultado   | Status         |
+| -------- | ----------------- | ---------- | ----------- | -------------- |
+| `12`     | Play/Pause Deck A | `91 12 7F` | LED acendeu | **CONFIRMADO** |
+
+---
+
+# Testes realizados
+
+## TEST-LED-001 — Play/Pause Deck A
+
+### Objetivo
+
+Confirmar se o endereço `12` controla fisicamente o LED Play/Pause do Deck A.
+
+### Comando ON
 
 ```text
-B0 7F 00
+91 12 7F
 ```
 
-Resultado esperado:
+### Resultado
+
+LED Play/Pause Deck A acendeu.
+
+### Comando OFF
 
 ```text
-Todos os LEDs apagados
+91 12 00
 ```
 
-Depois:
+### Resultado
+
+LED Play/Pause Deck A apagou.
+
+### Conclusão
+
+O endereço `12` foi confirmado na unidade física.
+
+**Status: PASS**
+
+---
+
+## TEST-LED-002 — Todos os LEDs
+
+### Objetivo
+
+Verificar o comando global de controle dos LEDs.
+
+### Comando OFF
 
 ```text
-B0 7F 7F
+B1 7F 00
 ```
 
-Resultado esperado:
+### Comando ON
 
 ```text
-Todos os LEDs acesos
+B1 7F 7F
 ```
 
-Se o resultado observado for diferente, registrar no relatório experimental.
+### Resultado
+
+Ainda não registrado.
+
+**Status: PENDENTE**
 
 ---
 
-# 14. Matriz de validação
+# Diferença entre documentação e hardware
 
-Esta seção será preenchida durante os testes físicos.
-
-| Endereço | LED esperado        | Resposta física | Estado | Observação |
-| -------: | ------------------- | --------------- | ------ | ---------- |
-|     `01` | Pad 1 Effect A      | —               | ⬜      |            |
-|     `02` | Pad 2 Effect A      | —               | ⬜      |            |
-|     `03` | Pad 3 Effect A      | —               | ⬜      |            |
-|     `04` | Pad 4 Effect A      | —               | ⬜      |            |
-|     `05` | Pad 1 Sample A      | —               | ⬜      |            |
-|     `06` | Pad 2 Sample A      | —               | ⬜      |            |
-|     `07` | Pad 3 Sample A      | —               | ⬜      |            |
-|     `08` | Pad 4 Sample A      | —               | ⬜      |            |
-|     `09` | Pad 1 Loop A        | —               | ⬜      |            |
-|     `0A` | Pad 2 Loop A        | —               | ⬜      |            |
-|     `0B` | Pad 3 Loop A        | —               | ⬜      |            |
-|     `0C` | Pad 4 Loop A        | —               | ⬜      |            |
-|     `11` | Cue A               | —               | ⬜      |            |
-|     `12` | Play A              | —               | ⬜      |            |
-|     `13` | Sync A              | —               | ⬜      |            |
-|     `14` | Listen A            | —               | ⬜      |            |
-|     `17` | Pad 1 Effect B      | —               | ⬜      |            |
-|     `18` | Pad 2 Effect B      | —               | ⬜      |            |
-|     `19` | Pad 3 Effect B      | —               | ⬜      |            |
-|     `1A` | Pad 4 Effect B      | —               | ⬜      |            |
-|     `1B` | Pad 1 Sample B      | —               | ⬜      |            |
-|     `1C` | Pad 2 Sample B      | —               | ⬜      |            |
-|     `1D` | Pad 3 Sample B      | —               | ⬜      |            |
-|     `1E` | Pad 4 Sample B      | —               | ⬜      |            |
-|     `1F` | Pad 1 Loop B        | —               | ⬜      |            |
-|     `20` | Pad 2 Loop B        | —               | ⬜      |            |
-|     `21` | Pad 3 Loop B        | —               | ⬜      |            |
-|     `22` | Pad 4 Loop B        | —               | ⬜      |            |
-|     `27` | Cue B               | —               | ⬜      |            |
-|     `28` | Play B              | —               | ⬜      |            |
-|     `29` | Sync B              | —               | ⬜      |            |
-|     `2A` | Listen B            | —               | ⬜      |            |
-|     `2D` | Scratch             | —               | ⬜      |            |
-|     `2E` | Magic               | —               | ⬜      |            |
-|     `30` | Record              | —               | ⬜      |            |
-|     `35` | Files               | —               | ⬜      |            |
-|     `36` | Folders             | —               | ⬜      |            |
-|     `39` | Mix Headphones      | —               | ⬜      |            |
-|     `3A` | Cue/PFL Headphones  | —               | ⬜      |            |
-|     `3B` | Headphones Volume - | —               | ⬜      |            |
-|     `3C` | Headphones Volume + | —               | ⬜      |            |
-|     `44` | Beat 1 A            | —               | ⬜      |            |
-|     `45` | Beat 2 A            | —               | ⬜      |            |
-|     `46` | Beat 3 A            | —               | ⬜      |            |
-|     `47` | Beat 4 A            | —               | ⬜      |            |
-|     `4C` | Beat 1 B            | —               | ⬜      |            |
-|     `4D` | Beat 2 B            | —               | ⬜      |            |
-|     `4E` | Beat 3 B            | —               | ⬜      |            |
-|     `4F` | Beat 4 B            | —               | ⬜      |            |
-
----
-
-# 15. Resultados experimentais
-
-Esta seção será atualizada conforme os testes forem realizados.
-
-## TEST-LED-001
-
-**Objetivo:** verificar o comando global de LEDs.
-
-**Mensagem enviada:**
+A documentação oficial utiliza a notação genérica:
 
 ```text
-B0 7F 00
+9x
+Bx
 ```
 
-**Resultado esperado:**
+O `x` depende do canal MIDI.
 
-Todos os LEDs desligados.
-
-**Resultado observado:**
-
-*Pendente.*
-
----
-
-## TEST-LED-002
-
-**Objetivo:** verificar o comando global de LEDs.
-
-**Mensagem enviada:**
+A unidade física analisada neste projeto utiliza:
 
 ```text
-B0 7F 7F
+Canal MIDI 2
 ```
 
-**Resultado esperado:**
+Portanto:
 
-Todos os LEDs ligados.
+```text
+9x → 91
+Bx → B1
+```
 
-**Resultado observado:**
+Essa informação foi confirmada através da captura MIDI realizada diretamente na controladora.
 
-*Pendente.*
+Exemplo capturado ao pressionar PLAY A:
 
----
+```text
+note_on channel=1 note=18 velocity=127
+```
 
-# 16. Diferenças entre documentação e hardware
+Convertendo:
 
-Esta seção deverá registrar qualquer divergência encontrada.
+```text
+channel=1 no Mido
+        ↓
+MIDI Channel 2
 
-Formato recomendado:
+note=18 decimal
+        ↓
+12 hexadecimal
 
-| Endereço | Especificação | Hardware | Diferença |
-| -------: | ------------- | -------- | --------- |
-|        — | —             | —        | —         |
+velocity=127
+        ↓
+7F hexadecimal
+```
 
-Nenhuma divergência foi registrada até o momento.
+Resultado:
 
----
+```text
+91 12 7F
+```
 
-# 17. Diferenças em relação ao Mixxx
-
-O mapping do Mixxx será utilizado como fonte secundária para comparação.
-
-Esta seção deverá responder:
-
-* quais LEDs o Mixxx controla;
-* quais endereços utiliza;
-* se utiliza `7F`/`00`;
-* se utiliza outros valores;
-* quais LEDs não são utilizados;
-* se existem diferenças entre o mapping e a documentação Hercules.
-
-| LED            | Hercules | Mixxx | Resultado |
-| -------------- | -------- | ----- | --------- |
-| Pad 1 Effect A | `01`     | —     | Pendente  |
-| Play A         | `12`     | —     | Pendente  |
-| Sync A         | `13`     | —     | Pendente  |
-| Beat 1 A       | `44`     | —     | Pendente  |
+O mesmo comando foi posteriormente enviado pela porta MIDI OUT e confirmou o controle físico do LED.
 
 ---
 
-# 18. Questões em investigação
+# Relação com o Mixxx
 
-As seguintes questões ainda precisam ser respondidas experimentalmente:
+O arquivo de mapping do Mixxx contém os mesmos endereços básicos utilizados pela documentação oficial, incluindo:
 
-* O canal MIDI padrão é realmente o canal 1?
-* Todos os endereços documentados respondem individualmente?
-* O comando `B0 7F 7F` realmente acende todos os LEDs da unidade?
-* Existem LEDs que compartilham endereço?
-* Existem valores intermediários entre `00` e `7F`?
-* Os LEDs possuem diferentes níveis de intensidade?
-* Alguns LEDs possuem comportamento dependente do modo do controlador?
-* Os pads possuem comportamento diferente quando a sensibilidade está habilitada?
-* O VU-meter responde apenas a `00`/`7F` ou aceita outros valores?
-* O hardware aceita mensagens MIDI em outros canais?
-* Existem comandos MIDI não documentados pela Hercules?
+```text
+Play A → 12
+Cue A → 11
+Sync A → 13
+
+Play B → 28
+Cue B → 27
+Sync B → 29
+```
+
+Entretanto, este projeto considera uma informação experimental como confirmada somente após o comando ser enviado diretamente à unidade física e sua resposta ser observada.
+
+Portanto:
+
+```text
+Mixxx
+   ↓
+Referência de implementação
+
+Hercules Manual
+   ↓
+Referência oficial
+
+Hardware físico
+   ↓
+Validação experimental
+```
 
 ---
 
-# 19. Fontes
+# Questões ainda em investigação
 
-## Fonte primária
+* Todos os endereços documentados respondem da mesma forma na unidade física?
+* Os LEDs de Beat utilizam exatamente os endereços documentados?
+* O comando global `B1 7F 7F` funciona na unidade?
+* Existem LEDs não documentados?
+* Existem valores intermediários diferentes de `00` e `7F`?
+* Alguns LEDs possuem comportamento de piscar ou estados especiais?
+* Existem diferenças entre o comportamento do hardware e o mapping atual do Mixxx?
+* O hardware possui comandos MIDI OUT adicionais que não aparecem no manual?
+* Os LEDs respondem a `Note On velocity 0` e a `Note Off` de maneira equivalente?
 
-**Hercules / DJUCED - DJ Control AIR Reference Manual**
+---
+
+# Próximo procedimento experimental
+
+A próxima etapa deve ser automatizar o teste dos endereços MIDI.
+
+O objetivo é enviar sequencialmente:
+
+```text
+91 XX 7F
+```
+
+para cada endereço e registrar visualmente qual LED respondeu.
+
+Após cada teste, enviar:
+
+```text
+91 XX 00
+```
+
+para desligá-lo antes de continuar.
+
+Isso permitirá construir uma tabela experimental:
+
+| Endereço | LED observado     | ON  | OFF | Observação |
+| -------- | ----------------- | --- | --- | ---------- |
+| `01`     | —                 | —   | —   | Pendente   |
+| `02`     | —                 | —   | —   | Pendente   |
+| `03`     | —                 | —   | —   | Pendente   |
+| ...      | ...               | ... | ... | ...        |
+| `12`     | Play/Pause Deck A | OK  | OK  | Confirmado |
+
+---
+
+# Fontes
+
+## Hercules
+
+**DJ Control AIR / DJUCED Reference Manual**
 
 Seção:
 
@@ -606,43 +483,32 @@ Seção:
 D. DJ Control AIR MIDI messages
 ```
 
-Subseção:
+O manual documenta os comandos MIDI de entrada e saída da controladora, incluindo o controle dos LEDs.
+
+## Mixxx
+
+Arquivo:
 
 ```text
-3. MIDI Output = control on LEDs
+res/controllers/Hercules DJ Control AIR.midi.xml
 ```
 
-Páginas 51 e 52.
-
-A documentação oficial especifica os comandos de MIDI Output, incluindo os LEDs dos decks, mixer, navegador, VU-meter, controles centrais, headphones e painel frontal.
-
-## Fonte secundária
-
-Código-fonte do Mixxx:
-
-```text
-Hercules DJ Control AIR.midi.xml
-```
-
-e o respectivo script JavaScript do controlador.
-
-Esses arquivos serão tratados como **implementações de referência**, não como especificação oficial.
+Utilizado como referência de implementação para comandos MIDI e LEDs.
 
 ---
 
-# 20. Histórico de validação
+# Histórico de validação
 
-| Data       | Teste                             | Resultado |
-| ---------- | --------------------------------- | --------- |
-| 2026-09-03 | Documentação oficial identificada | Concluído |
-| 2026-09-03 | Mapa inicial dos LEDs             | Concluído |
-| —          | Teste global OFF                  | Pendente  |
-| —          | Teste global ON                   | Pendente  |
-| —          | Teste individual dos LEDs         | Pendente  |
-| —          | Comparação com Mixxx              | Pendente  |
-
----
-
-## Referência principal
-
-A especificação utilizada neste documento foi extraída da seção de MIDI Output do manual oficial **DJUCED™ and DJ Control AIR Reference Manual**, que documenta os LEDs e seus respectivos endereços MIDI.
+| Data       | Descoberta                  | Resultado          |
+| ---------- | --------------------------- | ------------------ |
+| 2026-09-03 | Porta MIDI IN identificada  | `DJ Control Air 0` |
+| 2026-09-03 | Porta MIDI OUT identificada | `DJ Control Air 1` |
+| 2026-09-03 | Canal MIDI identificado     | Canal 2            |
+| 2026-09-03 | PLAY A capturado            | `91 12 7F`         |
+| 2026-09-03 | CUE A capturado             | `91 11 7F`         |
+| 2026-09-03 | SYNC A capturado            | `91 13 7F`         |
+| 2026-09-03 | PLAY B capturado            | `91 28 7F`         |
+| 2026-09-03 | CUE B capturado             | `91 27 7F`         |
+| 2026-09-03 | SYNC B capturado            | `91 29 7F`         |
+| 2026-09-03 | LED Play A testado          | **CONFIRMADO**     |
+| 2026-09-03 | Comando global              | Pendente           |
