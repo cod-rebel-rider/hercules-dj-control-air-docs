@@ -1,0 +1,4618 @@
+{
+    "PLAY_A": {
+        "id": "PLAY_A",
+        "name": "Play/Pause Deck A",
+        "timestamp": "2026-09-03T16:09:51.240612",
+        "messages": [
+            {
+                "hex": "91 11 7F",
+                "type": "note_on",
+                "description": "Note 11 velocity=7F ON",
+                "bytes": [
+                    145,
+                    17,
+                    127
+                ]
+            },
+            {
+                "hex": "91 11 00",
+                "type": "note_on",
+                "description": "Note 11 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    17,
+                    0
+                ]
+            }
+        ]
+    },
+    "CUE_A": {
+        "id": "CUE_A",
+        "name": "Cue Deck A",
+        "timestamp": "2026-09-03T16:10:11.211355",
+        "messages": [
+            {
+                "hex": "91 12 7F",
+                "type": "note_on",
+                "description": "Note 12 velocity=7F ON",
+                "bytes": [
+                    145,
+                    18,
+                    127
+                ]
+            },
+            {
+                "hex": "91 12 00",
+                "type": "note_on",
+                "description": "Note 12 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    18,
+                    0
+                ]
+            }
+        ]
+    },
+    "SYNC_A": {
+        "id": "SYNC_A",
+        "name": "Sync Deck A",
+        "timestamp": "2026-09-03T16:10:21.662531",
+        "messages": [
+            {
+                "hex": "91 13 7F",
+                "type": "note_on",
+                "description": "Note 13 velocity=7F ON",
+                "bytes": [
+                    145,
+                    19,
+                    127
+                ]
+            },
+            {
+                "hex": "91 13 00",
+                "type": "note_on",
+                "description": "Note 13 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    19,
+                    0
+                ]
+            }
+        ]
+    },
+    "PLAY_B": {
+        "id": "PLAY_B",
+        "name": "Play/Pause Deck B",
+        "timestamp": "2026-09-03T16:10:51.260466",
+        "messages": [
+            {
+                "hex": "91 28 7F",
+                "type": "note_on",
+                "description": "Note 28 velocity=7F ON",
+                "bytes": [
+                    145,
+                    40,
+                    127
+                ]
+            },
+            {
+                "hex": "91 28 00",
+                "type": "note_on",
+                "description": "Note 28 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    40,
+                    0
+                ]
+            }
+        ]
+    },
+    "CUE_B": {
+        "id": "CUE_B",
+        "name": "Cue Deck B",
+        "timestamp": "2026-09-03T16:10:57.901528",
+        "messages": [
+            {
+                "hex": "91 27 7F",
+                "type": "note_on",
+                "description": "Note 27 velocity=7F ON",
+                "bytes": [
+                    145,
+                    39,
+                    127
+                ]
+            },
+            {
+                "hex": "91 27 00",
+                "type": "note_on",
+                "description": "Note 27 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    39,
+                    0
+                ]
+            }
+        ]
+    },
+    "SYNC_B": {
+        "id": "SYNC_B",
+        "name": "Sync Deck B",
+        "timestamp": "2026-09-03T16:11:06.583333",
+        "messages": [
+            {
+                "hex": "91 29 7F",
+                "type": "note_on",
+                "description": "Note 29 velocity=7F ON",
+                "bytes": [
+                    145,
+                    41,
+                    127
+                ]
+            },
+            {
+                "hex": "91 29 00",
+                "type": "note_on",
+                "description": "Note 29 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    41,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_A_01": {
+        "id": "PAD_A_01",
+        "name": "Pad 1 Deck A",
+        "timestamp": "2026-09-03T16:13:02.643105",
+        "messages": [
+            {
+                "hex": "91 09 1D",
+                "type": "note_on",
+                "description": "Note 09 velocity=1D ON",
+                "bytes": [
+                    145,
+                    9,
+                    29
+                ]
+            },
+            {
+                "hex": "A1 09 7F",
+                "type": "polytouch",
+                "description": "Poly Pressure note=09 value=7F",
+                "bytes": [
+                    161,
+                    9,
+                    127
+                ]
+            },
+            {
+                "hex": "A1 09 44",
+                "type": "polytouch",
+                "description": "Poly Pressure note=09 value=44",
+                "bytes": [
+                    161,
+                    9,
+                    68
+                ]
+            },
+            {
+                "hex": "91 09 00",
+                "type": "note_on",
+                "description": "Note 09 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    9,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_A_02": {
+        "id": "PAD_A_02",
+        "name": "Pad 2 Deck A",
+        "timestamp": "2026-09-03T16:13:30.333515",
+        "messages": [
+            {
+                "hex": "91 0A 7F",
+                "type": "note_on",
+                "description": "Note 0A velocity=7F ON",
+                "bytes": [
+                    145,
+                    10,
+                    127
+                ]
+            },
+            {
+                "hex": "A1 0A 5E",
+                "type": "polytouch",
+                "description": "Poly Pressure note=0A value=5E",
+                "bytes": [
+                    161,
+                    10,
+                    94
+                ]
+            },
+            {
+                "hex": "A1 0A 22",
+                "type": "polytouch",
+                "description": "Poly Pressure note=0A value=22",
+                "bytes": [
+                    161,
+                    10,
+                    34
+                ]
+            },
+            {
+                "hex": "91 0A 00",
+                "type": "note_on",
+                "description": "Note 0A velocity=00 OFF",
+                "bytes": [
+                    145,
+                    10,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_A_03": {
+        "id": "PAD_A_03",
+        "name": "Pad 3 Deck A",
+        "timestamp": "2026-09-03T16:13:36.299632",
+        "messages": [
+            {
+                "hex": "91 0B 7F",
+                "type": "note_on",
+                "description": "Note 0B velocity=7F ON",
+                "bytes": [
+                    145,
+                    11,
+                    127
+                ]
+            },
+            {
+                "hex": "91 0B 00",
+                "type": "note_on",
+                "description": "Note 0B velocity=00 OFF",
+                "bytes": [
+                    145,
+                    11,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_A_04": {
+        "id": "PAD_A_04",
+        "name": "Pad 4 Deck A",
+        "timestamp": "2026-09-03T16:13:41.536017",
+        "messages": [
+            {
+                "hex": "91 0C 52",
+                "type": "note_on",
+                "description": "Note 0C velocity=52 ON",
+                "bytes": [
+                    145,
+                    12,
+                    82
+                ]
+            },
+            {
+                "hex": "A1 0C 38",
+                "type": "polytouch",
+                "description": "Poly Pressure note=0C value=38",
+                "bytes": [
+                    161,
+                    12,
+                    56
+                ]
+            },
+            {
+                "hex": "A1 0C 17",
+                "type": "polytouch",
+                "description": "Poly Pressure note=0C value=17",
+                "bytes": [
+                    161,
+                    12,
+                    23
+                ]
+            },
+            {
+                "hex": "A1 0C 07",
+                "type": "polytouch",
+                "description": "Poly Pressure note=0C value=07",
+                "bytes": [
+                    161,
+                    12,
+                    7
+                ]
+            },
+            {
+                "hex": "91 0C 00",
+                "type": "note_on",
+                "description": "Note 0C velocity=00 OFF",
+                "bytes": [
+                    145,
+                    12,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_B_01": {
+        "id": "PAD_B_01",
+        "name": "Pad 1 Deck B",
+        "timestamp": "2026-09-03T16:13:48.060154",
+        "messages": [
+            {
+                "hex": "91 1F 70",
+                "type": "note_on",
+                "description": "Note 1F velocity=70 ON",
+                "bytes": [
+                    145,
+                    31,
+                    112
+                ]
+            },
+            {
+                "hex": "A1 1F 79",
+                "type": "polytouch",
+                "description": "Poly Pressure note=1F value=79",
+                "bytes": [
+                    161,
+                    31,
+                    121
+                ]
+            },
+            {
+                "hex": "A1 1F 75",
+                "type": "polytouch",
+                "description": "Poly Pressure note=1F value=75",
+                "bytes": [
+                    161,
+                    31,
+                    117
+                ]
+            },
+            {
+                "hex": "A1 1F 5A",
+                "type": "polytouch",
+                "description": "Poly Pressure note=1F value=5A",
+                "bytes": [
+                    161,
+                    31,
+                    90
+                ]
+            },
+            {
+                "hex": "A1 1F 2B",
+                "type": "polytouch",
+                "description": "Poly Pressure note=1F value=2B",
+                "bytes": [
+                    161,
+                    31,
+                    43
+                ]
+            },
+            {
+                "hex": "91 1F 00",
+                "type": "note_on",
+                "description": "Note 1F velocity=00 OFF",
+                "bytes": [
+                    145,
+                    31,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_B_02": {
+        "id": "PAD_B_02",
+        "name": "Pad 2 Deck B",
+        "timestamp": "2026-09-03T16:13:52.598723",
+        "messages": [
+            {
+                "hex": "91 22 00",
+                "type": "note_on",
+                "description": "Note 22 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    34,
+                    0
+                ]
+            },
+            {
+                "hex": "91 22 00",
+                "type": "note_on",
+                "description": "Note 22 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    34,
+                    0
+                ]
+            },
+            {
+                "hex": "91 20 7F",
+                "type": "note_on",
+                "description": "Note 20 velocity=7F ON",
+                "bytes": [
+                    145,
+                    32,
+                    127
+                ]
+            },
+            {
+                "hex": "91 20 00",
+                "type": "note_on",
+                "description": "Note 20 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    32,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_B_03": {
+        "id": "PAD_B_03",
+        "name": "Pad 3 Deck B",
+        "timestamp": "2026-09-03T16:13:58.309130",
+        "messages": [
+            {
+                "hex": "91 21 7F",
+                "type": "note_on",
+                "description": "Note 21 velocity=7F ON",
+                "bytes": [
+                    145,
+                    33,
+                    127
+                ]
+            },
+            {
+                "hex": "A1 21 78",
+                "type": "polytouch",
+                "description": "Poly Pressure note=21 value=78",
+                "bytes": [
+                    161,
+                    33,
+                    120
+                ]
+            },
+            {
+                "hex": "A1 21 1B",
+                "type": "polytouch",
+                "description": "Poly Pressure note=21 value=1B",
+                "bytes": [
+                    161,
+                    33,
+                    27
+                ]
+            },
+            {
+                "hex": "91 21 00",
+                "type": "note_on",
+                "description": "Note 21 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    33,
+                    0
+                ]
+            }
+        ]
+    },
+    "PAD_B_04": {
+        "id": "PAD_B_04",
+        "name": "Pad 4 Deck B",
+        "timestamp": "2026-09-03T16:14:03.145419",
+        "messages": [
+            {
+                "hex": "91 22 5D",
+                "type": "note_on",
+                "description": "Note 22 velocity=5D ON",
+                "bytes": [
+                    145,
+                    34,
+                    93
+                ]
+            },
+            {
+                "hex": "A1 22 7F",
+                "type": "polytouch",
+                "description": "Poly Pressure note=22 value=7F",
+                "bytes": [
+                    161,
+                    34,
+                    127
+                ]
+            },
+            {
+                "hex": "A1 22 5C",
+                "type": "polytouch",
+                "description": "Poly Pressure note=22 value=5C",
+                "bytes": [
+                    161,
+                    34,
+                    92
+                ]
+            },
+            {
+                "hex": "A1 22 2D",
+                "type": "polytouch",
+                "description": "Poly Pressure note=22 value=2D",
+                "bytes": [
+                    161,
+                    34,
+                    45
+                ]
+            },
+            {
+                "hex": "A1 22 05",
+                "type": "polytouch",
+                "description": "Poly Pressure note=22 value=05",
+                "bytes": [
+                    161,
+                    34,
+                    5
+                ]
+            },
+            {
+                "hex": "91 22 00",
+                "type": "note_on",
+                "description": "Note 22 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    34,
+                    0
+                ]
+            }
+        ]
+    },
+    "JOG_A": {
+        "id": "JOG_A",
+        "name": "Jog Wheel Deck A",
+        "timestamp": "2026-09-03T16:14:11.312250",
+        "messages": [
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "91 16 7F",
+                "type": "note_on",
+                "description": "Note 16 velocity=7F ON",
+                "bytes": [
+                    145,
+                    22,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "91 16 00",
+                "type": "note_on",
+                "description": "Note 16 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    22,
+                    0
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            }
+        ]
+    },
+    "JOG_B": {
+        "id": "JOG_B",
+        "name": "Jog Wheel Deck B",
+        "timestamp": "2026-09-03T16:14:21.733274",
+        "messages": [
+            {
+                "hex": "B1 31 7F",
+                "type": "control_change",
+                "description": "CC 31 value=7F",
+                "bytes": [
+                    177,
+                    49,
+                    127
+                ]
+            },
+            {
+                "hex": "91 2C 7F",
+                "type": "note_on",
+                "description": "Note 2C velocity=7F ON",
+                "bytes": [
+                    145,
+                    44,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "91 2C 00",
+                "type": "note_on",
+                "description": "Note 2C velocity=00 OFF",
+                "bytes": [
+                    145,
+                    44,
+                    0
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            }
+        ]
+    },
+    "SCRATCH_A": {
+        "id": "SCRATCH_A",
+        "name": "Scratch Jog Deck A",
+        "timestamp": "2026-09-03T16:15:23.717482",
+        "messages": [
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "description": "CC 30 value=7F",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ]
+            },
+            {
+                "hex": "91 16 7F",
+                "type": "note_on",
+                "description": "Note 16 velocity=7F ON",
+                "bytes": [
+                    145,
+                    22,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 32 7F",
+                "type": "control_change",
+                "description": "CC 32 value=7F",
+                "bytes": [
+                    177,
+                    50,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 32 7F",
+                "type": "control_change",
+                "description": "CC 32 value=7F",
+                "bytes": [
+                    177,
+                    50,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 32 01",
+                "type": "control_change",
+                "description": "CC 32 value=01",
+                "bytes": [
+                    177,
+                    50,
+                    1
+                ]
+            },
+            {
+                "hex": "91 16 00",
+                "type": "note_on",
+                "description": "Note 16 velocity=00 OFF",
+                "bytes": [
+                    145,
+                    22,
+                    0
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 30 01",
+                "type": "control_change",
+                "description": "CC 30 value=01",
+                "bytes": [
+                    177,
+                    48,
+                    1
+                ]
+            }
+        ]
+    },
+    "SCRATCH_B": {
+        "id": "SCRATCH_B",
+        "name": "Scratch Jog Deck B",
+        "timestamp": "2026-09-03T16:15:34.257041",
+        "messages": [
+            {
+                "hex": "91 2C 7F",
+                "type": "note_on",
+                "description": "Note 2C velocity=7F ON",
+                "bytes": [
+                    145,
+                    44,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 7F",
+                "type": "control_change",
+                "description": "CC 33 value=7F",
+                "bytes": [
+                    177,
+                    51,
+                    127
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "B1 33 01",
+                "type": "control_change",
+                "description": "CC 33 value=01",
+                "bytes": [
+                    177,
+                    51,
+                    1
+                ]
+            },
+            {
+                "hex": "91 2C 00",
+                "type": "note_on",
+                "description": "Note 2C velocity=00 OFF",
+                "bytes": [
+                    145,
+                    44,
+                    0
+                ]
+            },
+            {
+                "hex": "B1 31 01",
+                "type": "control_change",
+                "description": "CC 31 value=01",
+                "bytes": [
+                    177,
+                    49,
+                    1
+                ]
+            }
+        ]
+    }
+}
