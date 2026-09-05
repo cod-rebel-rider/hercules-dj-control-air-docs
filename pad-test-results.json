@@ -1,0 +1,2836 @@
+{
+    "PAD_A_01": {
+        "id": "PAD_A_01",
+        "name": "Pad 1 Deck A",
+        "expected_note": "09",
+        "timestamp": "2026-09-05T07:38:21.690208",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T07:38:20.214",
+                "hex": "91 09 06",
+                "type": "note_on",
+                "bytes": [
+                    145,
+                    9,
+                    6
+                ],
+                "note": 9,
+                "velocity": 6,
+                "value": null
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.258",
+                "hex": "A1 09 3C",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    60
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 60
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.258",
+                "hex": "A1 09 40",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    64
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 64
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.263",
+                "hex": "A1 09 48",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    72
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 72
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.274",
+                "hex": "A1 09 4A",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    74
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 74
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.274",
+                "hex": "A1 09 49",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    73
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 73
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.290",
+                "hex": "A1 09 4E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    78
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 78
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.301",
+                "hex": "A1 09 50",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    80
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 80
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.301",
+                "hex": "A1 09 53",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    83
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 83
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.306",
+                "hex": "A1 09 55",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    85
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 85
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.312",
+                "hex": "A1 09 58",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    88
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 88
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.317",
+                "hex": "A1 09 59",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    89
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 89
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.334",
+                "hex": "A1 09 5A",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    90
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 90
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.350",
+                "hex": "A1 09 5B",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    91
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 91
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.355",
+                "hex": "A1 09 5D",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    93
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 93
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.361",
+                "hex": "A1 09 5E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    94
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 94
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.366",
+                "hex": "A1 09 5F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    95
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 95
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.371",
+                "hex": "A1 09 62",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    98
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 98
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.404",
+                "hex": "A1 09 63",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    99
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 99
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.409",
+                "hex": "A1 09 65",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    101
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 101
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.426",
+                "hex": "A1 09 66",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    102
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 102
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.426",
+                "hex": "A1 09 67",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    103
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 103
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.453",
+                "hex": "A1 09 66",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    102
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 102
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.459",
+                "hex": "A1 09 64",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    100
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 100
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.475",
+                "hex": "A1 09 63",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    99
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 99
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.502",
+                "hex": "A1 09 64",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    100
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 100
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.513",
+                "hex": "A1 09 65",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    101
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 101
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.643",
+                "hex": "A1 09 66",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    102
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 102
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.649",
+                "hex": "A1 09 67",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    103
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 103
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.671",
+                "hex": "A1 09 68",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    104
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 104
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.730",
+                "hex": "A1 09 69",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    105
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 105
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.730",
+                "hex": "A1 09 6A",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    106
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 106
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.746",
+                "hex": "A1 09 6B",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    107
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 107
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.752",
+                "hex": "A1 09 6C",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    108
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 108
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.829",
+                "hex": "A1 09 6E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    110
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 110
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.851",
+                "hex": "A1 09 70",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    112
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 112
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.872",
+                "hex": "A1 09 71",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    113
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 113
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.878",
+                "hex": "A1 09 72",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    114
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 114
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.889",
+                "hex": "A1 09 74",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    116
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 116
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.899",
+                "hex": "A1 09 76",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    118
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 118
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.910",
+                "hex": "A1 09 79",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    121
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 121
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.921",
+                "hex": "A1 09 7B",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    123
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 123
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.926",
+                "hex": "A1 09 7D",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    125
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 125
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.943",
+                "hex": "A1 09 7E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    126
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 126
+            },
+            {
+                "timestamp": "2026-09-05T07:38:20.948",
+                "hex": "A1 09 7F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    9,
+                    127
+                ],
+                "note": 9,
+                "velocity": null,
+                "value": 127
+            }
+        ],
+        "analysis": {
+            "note_on_count": 1,
+            "note_on_values": [
+                6
+            ],
+            "note_on_min": 6,
+            "note_on_max": 6,
+            "note_off_count": 0,
+            "pressure_count": 44,
+            "pressure_values": [
+                60,
+                64,
+                72,
+                74,
+                73,
+                78,
+                80,
+                83,
+                85,
+                88,
+                89,
+                90,
+                91,
+                93,
+                94,
+                95,
+                98,
+                99,
+                101,
+                102,
+                103,
+                102,
+                100,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                110,
+                112,
+                113,
+                114,
+                116,
+                118,
+                121,
+                123,
+                125,
+                126,
+                127
+            ],
+            "pressure_min": 60,
+            "pressure_max": 127
+        }
+    },
+    "PAD_A_02": {
+        "id": "PAD_A_02",
+        "name": "Pad 2 Deck A",
+        "expected_note": "0A",
+        "timestamp": "2026-09-05T08:14:04.243139",
+        "messages": [],
+        "analysis": {
+            "note_on_count": 0,
+            "note_on_values": [],
+            "note_on_min": null,
+            "note_on_max": null,
+            "note_off_count": 0,
+            "pressure_count": 0,
+            "pressure_values": [],
+            "pressure_min": null,
+            "pressure_max": null
+        }
+    },
+    "PAD_A_03": {
+        "id": "PAD_A_03",
+        "name": "Pad 3 Deck A",
+        "expected_note": "0B",
+        "timestamp": "2026-09-05T08:14:13.610609",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T08:14:10.236",
+                "hex": "B1 3F 04",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    4
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 4
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.274",
+                "hex": "B1 3F 0A",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    10
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 10
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.305",
+                "hex": "B1 3F 14",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    20
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 20
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.343",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.381",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.414",
+                "hex": "B1 3F 24",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    36
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 36
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.452",
+                "hex": "B1 3F 29",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    41
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 41
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.490",
+                "hex": "B1 3F 2D",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    45
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 45
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.523",
+                "hex": "B1 3F 30",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    48
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 48
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.561",
+                "hex": "B1 3F 32",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    50
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 50
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.598",
+                "hex": "B1 3F 34",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    52
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 52
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.632",
+                "hex": "B1 3F 35",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    53
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 53
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.702",
+                "hex": "B1 3F 38",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    56
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 56
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.740",
+                "hex": "B1 3F 3A",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    58
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 58
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.778",
+                "hex": "B1 3F 3C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    60
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 60
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.811",
+                "hex": "B1 3F 3F",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    63
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 63
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.848",
+                "hex": "B1 3F 40",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    64
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 64
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.919",
+                "hex": "B1 3F 42",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    66
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 66
+            },
+            {
+                "timestamp": "2026-09-05T08:14:10.995",
+                "hex": "B1 3F 43",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    67
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 67
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.065",
+                "hex": "B1 3F 42",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    66
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 66
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.097",
+                "hex": "B1 3F 41",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    65
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 65
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.135",
+                "hex": "B1 3F 40",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    64
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 64
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.173",
+                "hex": "B1 3F 3D",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    61
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 61
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.205",
+                "hex": "B1 3F 3B",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    59
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 59
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.243",
+                "hex": "B1 3F 38",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    56
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 56
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.281",
+                "hex": "B1 3F 36",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    54
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 54
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.314",
+                "hex": "B1 3F 33",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    51
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 51
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.390",
+                "hex": "B1 3F 32",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    50
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 50
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.423",
+                "hex": "B1 3F 30",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    48
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 48
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.462",
+                "hex": "B1 3F 2E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    46
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 46
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.494",
+                "hex": "B1 3F 2D",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    45
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 45
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.532",
+                "hex": "B1 3F 2C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    44
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 44
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.565",
+                "hex": "B1 3F 2B",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    43
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 43
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.641",
+                "hex": "B1 3F 29",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    41
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 41
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.674",
+                "hex": "B1 3F 26",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    38
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 38
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.713",
+                "hex": "B1 3F 24",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    36
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 36
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.751",
+                "hex": "B1 3F 21",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    33
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 33
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.783",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.822",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.854",
+                "hex": "B1 3F 14",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    20
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 20
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.892",
+                "hex": "B1 3F 11",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    17
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 17
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.930",
+                "hex": "B1 3F 0A",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    10
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 10
+            },
+            {
+                "timestamp": "2026-09-05T08:14:11.962",
+                "hex": "B1 3F 07",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    7
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 7
+            },
+            {
+                "timestamp": "2026-09-05T08:14:12.000",
+                "hex": "B1 3F 04",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    4
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 4
+            },
+            {
+                "timestamp": "2026-09-05T08:14:12.039",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:14:12.142",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            }
+        ],
+        "analysis": {
+            "note_on_count": 0,
+            "note_on_values": [],
+            "note_on_min": null,
+            "note_on_max": null,
+            "note_off_count": 0,
+            "pressure_count": 0,
+            "pressure_values": [],
+            "pressure_min": null,
+            "pressure_max": null
+        }
+    },
+    "PAD_A_04": {
+        "id": "PAD_A_04",
+        "name": "Pad 4 Deck A",
+        "expected_note": "0C",
+        "timestamp": "2026-09-05T08:14:26.291063",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T08:14:22.367",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:22.586",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:23.015",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:23.379",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:23.590",
+                "hex": "B1 30 7F",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    48,
+                    127
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 127
+            },
+            {
+                "timestamp": "2026-09-05T08:14:23.736",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:23.915",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:24.313",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:24.421",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:24.780",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:24.997",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:25.107",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:25.431",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:25.535",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:25.645",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:26.114",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            }
+        ],
+        "analysis": {
+            "note_on_count": 0,
+            "note_on_values": [],
+            "note_on_min": null,
+            "note_on_max": null,
+            "note_off_count": 0,
+            "pressure_count": 0,
+            "pressure_values": [],
+            "pressure_min": null,
+            "pressure_max": null
+        }
+    },
+    "PAD_B_01": {
+        "id": "PAD_B_01",
+        "name": "Pad 1 Deck B",
+        "expected_note": "1F",
+        "timestamp": "2026-09-05T08:14:32.488896",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T08:14:28.779",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:28.849",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:29.099",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:29.280",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:29.677",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:29.857",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:30.469",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:31.116",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:31.192",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:31.480",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:32.306",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:32.344",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            }
+        ],
+        "analysis": {
+            "note_on_count": 0,
+            "note_on_values": [],
+            "note_on_min": null,
+            "note_on_max": null,
+            "note_off_count": 0,
+            "pressure_count": 0,
+            "pressure_values": [],
+            "pressure_min": null,
+            "pressure_max": null
+        }
+    },
+    "PAD_B_02": {
+        "id": "PAD_B_02",
+        "name": "Pad 2 Deck B",
+        "expected_note": "20",
+        "timestamp": "2026-09-05T08:14:41.822743",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T08:14:38.063",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:38.210",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.036",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.149",
+                "hex": "91 20 06",
+                "type": "note_on",
+                "bytes": [
+                    145,
+                    32,
+                    6
+                ],
+                "note": 32,
+                "velocity": 6,
+                "value": null
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.187",
+                "hex": "A1 20 39",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    57
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 57
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.192",
+                "hex": "A1 20 42",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    66
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 66
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.192",
+                "hex": "A1 20 4A",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    74
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 74
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.198",
+                "hex": "A1 20 4F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    79
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 79
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.203",
+                "hex": "A1 20 53",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    83
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 83
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.209",
+                "hex": "A1 20 58",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    88
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 88
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.209",
+                "hex": "A1 20 5B",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    91
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 91
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.214",
+                "hex": "A1 20 63",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    99
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 99
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.220",
+                "hex": "A1 20 67",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    103
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 103
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.220",
+                "hex": "A1 20 6D",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    109
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 109
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.225",
+                "hex": "A1 20 6F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    111
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 111
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.230",
+                "hex": "A1 20 76",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    118
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 118
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.236",
+                "hex": "A1 20 79",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    121
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 121
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.241",
+                "hex": "A1 20 7F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    127
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 127
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.361",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:39.686",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.024",
+                "hex": "A1 20 73",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    115
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 115
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.030",
+                "hex": "A1 20 72",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    114
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 114
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.035",
+                "hex": "A1 20 64",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    100
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 100
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.041",
+                "hex": "A1 20 54",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    84
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 84
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.041",
+                "hex": "A1 20 2B",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    43
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 43
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.046",
+                "hex": "A1 20 1E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    30
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.052",
+                "hex": "A1 20 14",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    20
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 20
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.057",
+                "hex": "A1 20 08",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    8
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 8
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.057",
+                "hex": "A1 20 07",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    7
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 7
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.063",
+                "hex": "A1 20 03",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    3
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 3
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.068",
+                "hex": "91 20 00",
+                "type": "note_on",
+                "bytes": [
+                    145,
+                    32,
+                    0
+                ],
+                "note": 32,
+                "velocity": 0,
+                "value": null
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.188",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.236",
+                "hex": "91 20 0B",
+                "type": "note_on",
+                "bytes": [
+                    145,
+                    32,
+                    11
+                ],
+                "note": 32,
+                "velocity": 11,
+                "value": null
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.274",
+                "hex": "A1 20 39",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    57
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 57
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.280",
+                "hex": "A1 20 3F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    63
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 63
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.285",
+                "hex": "A1 20 49",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    73
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 73
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.286",
+                "hex": "A1 20 51",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    81
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 81
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.291",
+                "hex": "A1 20 56",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    86
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 86
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.297",
+                "hex": "A1 20 5C",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    92
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 92
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.297",
+                "hex": "A1 20 64",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    100
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 100
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.302",
+                "hex": "A1 20 6D",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    109
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 109
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.308",
+                "hex": "A1 20 75",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    117
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 117
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.308",
+                "hex": "A1 20 7F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    127
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 127
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.334",
+                "hex": "B1 3F 21",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    33
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 33
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.476",
+                "hex": "B1 3F 24",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    36
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 36
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.552",
+                "hex": "B1 3F 21",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    33
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 33
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.584",
+                "hex": "B1 3F 1E",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    30
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.693",
+                "hex": "B1 3F 1C",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    28
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 28
+            },
+            {
+                "timestamp": "2026-09-05T08:14:40.949",
+                "hex": "B1 3F 19",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    25
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 25
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.105",
+                "hex": "A1 20 76",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    118
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 118
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.111",
+                "hex": "A1 20 6F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    111
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 111
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.116",
+                "hex": "A1 20 5F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    95
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 95
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.116",
+                "hex": "A1 20 4E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    78
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 78
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.122",
+                "hex": "A1 20 4C",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    76
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 76
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.127",
+                "hex": "A1 20 3D",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    61
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 61
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.133",
+                "hex": "A1 20 38",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    56
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 56
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.138",
+                "hex": "A1 20 1E",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    30
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 30
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.144",
+                "hex": "A1 20 1A",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    26
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 26
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.149",
+                "hex": "91 20 00",
+                "type": "note_on",
+                "bytes": [
+                    145,
+                    32,
+                    0
+                ],
+                "note": 32,
+                "velocity": 0,
+                "value": null
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.198",
+                "hex": "B1 3F 17",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    23
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 23
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.339",
+                "hex": "91 20 07",
+                "type": "note_on",
+                "bytes": [
+                    145,
+                    32,
+                    7
+                ],
+                "note": 32,
+                "velocity": 7,
+                "value": null
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.377",
+                "hex": "A1 20 7F",
+                "type": "polytouch",
+                "bytes": [
+                    161,
+                    32,
+                    127
+                ],
+                "note": 32,
+                "velocity": null,
+                "value": 127
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.557",
+                "hex": "B1 3F 14",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    20
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 20
+            },
+            {
+                "timestamp": "2026-09-05T08:14:41.666",
+                "hex": "B1 3F 17",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    23
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 23
+            }
+        ],
+        "analysis": {
+            "note_on_count": 3,
+            "note_on_values": [
+                6,
+                11,
+                7
+            ],
+            "note_on_min": 6,
+            "note_on_max": 11,
+            "note_off_count": 2,
+            "pressure_count": 44,
+            "pressure_values": [
+                57,
+                66,
+                74,
+                79,
+                83,
+                88,
+                91,
+                99,
+                103,
+                109,
+                111,
+                118,
+                121,
+                127,
+                115,
+                114,
+                100,
+                84,
+                43,
+                30,
+                20,
+                8,
+                7,
+                3,
+                57,
+                63,
+                73,
+                81,
+                86,
+                92,
+                100,
+                109,
+                117,
+                127,
+                118,
+                111,
+                95,
+                78,
+                76,
+                61,
+                56,
+                30,
+                26,
+                127
+            ],
+            "pressure_min": 3,
+            "pressure_max": 127
+        }
+    },
+    "PAD_B_03": {
+        "id": "PAD_B_03",
+        "name": "Pad 3 Deck B",
+        "expected_note": "21",
+        "timestamp": "2026-09-05T08:15:24.003190",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T08:15:20.150",
+                "hex": "B1 3F 04",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    4
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 4
+            },
+            {
+                "timestamp": "2026-09-05T08:15:20.331",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            },
+            {
+                "timestamp": "2026-09-05T08:15:20.513",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:20.694",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            },
+            {
+                "timestamp": "2026-09-05T08:15:20.765",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:20.802",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            },
+            {
+                "timestamp": "2026-09-05T08:15:21.052",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:21.486",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            },
+            {
+                "timestamp": "2026-09-05T08:15:21.915",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:22.061",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            },
+            {
+                "timestamp": "2026-09-05T08:15:23.288",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:23.608",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            }
+        ],
+        "analysis": {
+            "note_on_count": 0,
+            "note_on_values": [],
+            "note_on_min": null,
+            "note_on_max": null,
+            "note_off_count": 0,
+            "pressure_count": 0,
+            "pressure_values": [],
+            "pressure_min": null,
+            "pressure_max": null
+        }
+    },
+    "PAD_B_04": {
+        "id": "PAD_B_04",
+        "name": "Pad 4 Deck B",
+        "expected_note": "22",
+        "timestamp": "2026-09-05T08:15:31.880710",
+        "messages": [
+            {
+                "timestamp": "2026-09-05T08:15:29.264",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:29.405",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            },
+            {
+                "timestamp": "2026-09-05T08:15:29.513",
+                "hex": "B1 3F 01",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    1
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 1
+            },
+            {
+                "timestamp": "2026-09-05T08:15:29.588",
+                "hex": "B1 3F 00",
+                "type": "control_change",
+                "bytes": [
+                    177,
+                    63,
+                    0
+                ],
+                "note": null,
+                "velocity": null,
+                "value": 0
+            }
+        ],
+        "analysis": {
+            "note_on_count": 0,
+            "note_on_values": [],
+            "note_on_min": null,
+            "note_on_max": null,
+            "note_off_count": 0,
+            "pressure_count": 0,
+            "pressure_values": [],
+            "pressure_min": null,
+            "pressure_max": null
+        }
+    }
+}
